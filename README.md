@@ -1,10 +1,10 @@
 # PomodoroGardenApp
 
-Cel
+#Cel
 
 -Aplikacja służy do zachęcania użytkownika do nauki
 
-Jak działa
+#Jak działa
 
 -Po lewej stronie będzie Pomodoro timer i task manager a po prawej mały ogródek i taby z 
 opcjami(Store, Tools, Soils, Seeds, Save?)
