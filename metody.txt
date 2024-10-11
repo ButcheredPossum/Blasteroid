@@ -1,0 +1,37 @@
+Metody Clean Code
+1.KISS(Keep It Simple Stupid)
+Nie pisz skomplikowanego kodu tam gdzie nie musisz. Im prostszy kod napiszesz tym łatwiej będzie ci go zrozumieć lub przekształcić póżniej jeśli przyjdzie
+ci na to potrzeba.
+
+2.Nazwy Powinnjy być intuicyne
+Kiedy patrzysz na nazwe zmiennej czy funkcji ona powinna sama ci powiedzieć co robi
+
+3.Unikanie duplikowania kodu
+Nie powinno się pisać kodu kilka razy jeśli można ją zapisać jako funkcje
+
+4.Każda funkcja robi jedną rzecz
+Funkcje łatwiej się używa i pisze jeśli mają tylko jedno zastosowanie
+
+5.Unikaj długich funkcji kiedy możesz
+Długi kod czasami trudno zrozumieć albo przeczytać
+
+Dla mnie najważniejsze jest pisanie kodu, który nadal mogę zrozumiecz po długiej przerwie, i który łatwo zmienić.
+
+
+Metody Debugowania
+1. Narrow Down Your Problem and Understand Where the Error is Generated
+Jeśli twój kod jest bardzo rozbudowany czasemy jest lepiej aby odizolować część kodu aby było łatwiej sprawdzić, która część kodu jest wadliwa.
+
+2. Take a Break and Think about Something Else
+Czasami jest lepiej odetchnąć od kodu i wrócić do niego póżniej z innym tokiem myślenia.
+
+3.Look for Help
+Nie zawsze będzieś umiał naprawić swój kod samodzielnie a na internetcie może nie będzie gotowego rozwiązania. W takim wypadku warto spytać się innych.
+
+4.Make Sure the Bug is Dead
+Bądź pewny, że błąd w twojim kodzie, który usunąłeś przez testowanie z różnymi warunkami.
+
+5.Gumowa kaczuszka
+Ta metoda polega na opisywaniu kodu do gumowej kaczuszki. Podczas tego tłumaczenia i opisywania błedy powinny same wyść na jaw
+
+Chce użyć te metody ponieważ pomogły mi w przeszłości, i bo dokumentacja pico-8 nie jest aż rozbudowana w porównaniu do innych programów.
