@@ -1,5 +1,7 @@
 # Axelvania-Remake
 
+--------------------------------------------------------------------------------------------------------------------------------
+
 # 01 Cel
 
 -Cel tej aplikacji to zabawić użytjkownika dziwnymi potworami i dialogiem
