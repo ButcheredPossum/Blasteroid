@@ -8,7 +8,9 @@
 #02 Jak działa
 
 -Gracz będzie chodził po dwuwymiarowym świecie pokonująć potwory
+
 -Z Potworów będzie dostawało się monety za które będzie można kupić różne przedmioty
+
 -Głównym celem gry będzie pokonanie uratowanie księżniczki
 
 
