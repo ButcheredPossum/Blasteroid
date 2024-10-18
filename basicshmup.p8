@@ -5,85 +5,101 @@ __lua__
 function _init()
     --this will clear the screen
     cls(0)
-    shipx = 64
-    shipy = 64
 
-    shipsx = 0
-    shipsy = 0
+    ship = { x = 64, y = 64, spdx = 0, spdy = 0, spr = 2 }
+    bul = { x = 64, y = -10 }
 
-    shipspr = 2
     flamespr = 5
-
-    bulx = 64
-    buly = -10
-
     muzzle = 0
+    moat = "game"
 end
 
 function _update()
+    if (moat == "start") update_start()
+    if (moat == "game") update_game()
+    if (moat == "end") update_end()
+end
+
+function _draw()
+    if (moat == "start") draw_start()
+    if (moat == "game") draw_game()
+    if (moat == "end") draw_end()
+end
+
+function update_game()
     --controls
-    shipsx = 0
-    shipsy = 0
-    shipspr = 2
+    ship.spdx = 0
+    ship.spdy = 0
+    ship.spr = 2
 
     if btn(0) then
-        shipsx = -2
-        shipspr = 1
+        ship.spdx = -2
+        ship.spr = 1
     end
     if btn(1) then
-        shipsx = 2
-        shipspr = 3
+        ship.spdx = 2
+        ship.spr = 3
     end
     if btn(2) then
-        shipsy = -2
+        ship.spdy = -2
     end
     if btn(3) then
-        shipsy = 2
+        ship.spdy = 2
     end
     if btnp(5) then
-        bulx = shipx
-        buly = shipy - 3
+        bul.x = ship.x
+        bul.y = ship.y - 3
         sfx(0)
         muzzle = 6
     end
 
     --moving the ship
-    shipx = shipx + shipsx
-    shipy = shipy + shipsy
+    ship.x += ship.spdx
+    ship.y += ship.spdy
 
     --move the bullet
-    buly = buly - 4
+    bul.y -= 4
 
     --animate flame
-    flamespr = flamespr + 1
+    flamespr += 1
     if flamespr > 9 then
         flamespr = 5
     end
 
     --animate mullze flash
     if muzzle > 0 then
-        muzzle = muzzle - 1
+        muzzle -= 1
     end
 
     --checking if we hit the edge
-    if shipx > 120 then
-        shipx = 0
+    if ship.x > 120 then
+        ship.x = 0
     end
-    if shipx < 0 then
-        shipx = 120
+    if ship.x < 0 then
+        ship.x = 120
     end
 end
 
-function _draw()
-    cls(0)
-    spr(shipspr, shipx, shipy)
-    spr(flamespr, shipx, shipy + 8)
+function update_start()
+end
+function update_end()
+end
 
-    spr(16, bulx, buly)
+function draw_game()
+    cls(0)
+    spr(ship.spr, ship.x, ship.y)
+    spr(flamespr, ship.x, ship.y + 8)
+
+    spr(16, bul.x, bul.y)
 
     if muzzle > 0 then
-        circfill(shipx + 3, shipy - 2, muzzle, 7)
+        circfill(ship.x + 3, ship.y - 2, muzzle, 7)
     end
+end
+
+function draw_start()
+end
+function draw_end()
 end
 
 __gfx__
