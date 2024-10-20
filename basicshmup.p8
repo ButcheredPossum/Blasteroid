@@ -140,14 +140,13 @@ function starinf()
 end
 
 function starfield()
-	for i = 1, #starx do
-		local scol = 6
-		if starspd[i] < 1.5 then
-			scol = 13 
-		elseif starspd[i] < 1 then
-			scol = 1 
+	for i = 1, #stary do
+		local sy = stary[i]
+		sy += starspd[i]
+		if sy > 128 then
+			sy -= 128
 		end
-		pset(starx[i], stary[i], scol)
+		stary[i] = sy
 	end
 end
 
