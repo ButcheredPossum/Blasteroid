@@ -153,12 +153,10 @@ end
 
 function animatestars()
 	for i = 1, #stary do
-		local sy = stary[i]
-		sy += starspd[i]
-		if sy > 128 then
-			sy -= 128
+		stary[i] = stary + starspd[i]
+		if stary[i] > 128 then
+			stary[i] = stary[i] - 128
 		end
-		stary[i] = sy
 	end
 end
 
