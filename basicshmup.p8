@@ -110,15 +110,27 @@ function draw_game()
 		circfill(ship.x + 3, ship.y - 2, muzzle, 7)
 	end
 
-	--projopp
 	spr(39, 1, 1, 3, 1)
 	print(score, 25, 2, 7)
-	for i = 1, 3 do
-		if ship.lives >= i then
-			spr(37, 106 + i * 8 - 9, 2)
-		else
-			spr(38, 106 + i * 8 - 9, 2)
-		end
+	if ship.lives==3 then
+		spr(37, 107, 2)
+		spr(37, 108, 2)
+		spr(37, 109, 2)
+	end
+	if ship.lives==2 then
+		spr(37, 107, 2)
+		spr(37, 108, 2)
+		spr(38, 109, 2)
+	end
+	if ship.lives==1 then
+		spr(37, 107, 2)
+		spr(38, 108, 2)
+		spr(38, 109, 2)
+	end
+	if ship.lives==0 then
+		spr(38, 107, 2)
+		spr(38, 108, 2)
+		spr(38, 109, 2)
 	end
 end
 
