@@ -1,21 +1,19 @@
-# Axelvania-Remake
+# Blasteroid
 
 
 # 01 Cel
 
--Cel tej aplikacji to zabawić użytjkownika dziwnymi potworami i dialogiem
+-Aplikacja ta służy jako forma zabawy lub rozrywki dla użytkownika
 
 
 # 02 Jak działa
 
--Gracz będzie chodził po dwuwymiarowym świecie pokonująć potwory
+-Przy urochomieniu programu wyświetli sie strona internetowa na której będzie można zagrać lub ściagnąć grę
 
--Z Potworów będzie dostawało się monety za które będzie można kupić różne przedmioty
-
--Głównym celem gry będzie pokonanie uratowanie księżniczki
+-W grze chodzi o zdobyciu jak najwięcej punktów przez zniszczenie różnych obiektów, które będą miały moc cię zranić
 
 
 # 03 Interakcja z użytkownikiem
 
--Gracz będzie interaktował z grą z pomocoą strzałek i klawiszy "z" i "x" znajdujących się klawiaturze aby poruszać postącią i 
-interaktować z światem
+-Gracz będzie interaktował z grą z pomocoą strzałek i klawiszy "z" i "x" znajdujących się na klawiaturze aby poruszać postącią i 
+używać narzędzi lub broni
