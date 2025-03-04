@@ -9,7 +9,7 @@ html, body {
     color: whitesmoke;
     width: 100%;
     height: 100%;
-    background: black;
+    background: #1a0f30;
     overflow: auto; /* Allows scrolling if needed */
 }
 
