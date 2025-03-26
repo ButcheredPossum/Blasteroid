@@ -6,7 +6,7 @@
 
 html, body {
     font-family: 'Open-sans', sans-serif;
-    color: whitesmoke;
+    color: gainsboro;
     width: 100%;
     height: 100%;
     background: #000010;
@@ -57,5 +57,44 @@ iframe {
 
 #description {
     background: #1D2B53;
-    height: 3000px; /* Fixed height */
+    padding: 40px;
+    display: flex;
+    justify-content: space-between; /* Text on left, images on right */
+    align-items: flex-start;
+    gap: 40px; /* Space between text and images */
+}
+
+#description .text {
+    flex: 1; /* Takes most space */
+    max-width: 60%; /* Ensures text doesn't stretch too much */
+}
+
+#description h1 {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#description p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#description ul {
+    font-size: 18px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+#description .images {
+    display: flex;
+    flex-direction: column; /* Stack images vertically */
+    align-items: flex-end;
+    gap: 20px;
+}
+
+#description .images img {
+    width: 256px;
+    height: auto;
+    border-radius: 5px; /* Optional: adds smooth corners */
 }
