@@ -1,10 +1,8 @@
 # Blasteroid
 
-
 ## **01** Cel
 
--Aplikacja ta służy jako forma *zabawy* lub *rozrywki* dla użytkownika
-
+-Aplikacja ta służy jako forma _zabawy_ lub _rozrywki_ dla użytkownika
 
 ## **02** Jak działa
 
@@ -12,8 +10,7 @@
 
 -W grze chodzi o zdobyciu jak najwięcej punktów przez zniszczenie różnych obiektów, które będą miały moc cię zranić
 
-
 ## **03** Interakcja z użytkownikiem
 
--Gracz będzie interaktował z grą z pomocoą **strzałek** i klawiszy **"z"** i **"x"** znajdujących się na klawiaturze aby poruszać postącią i 
-używać narzędzi lub broni
+-Gracz będzie interaktował z grą z pomocoą **strzałek** i klawiszy **"z"** i **"x"** znajdujących się na klawiaturze aby poruszać postącią i
+używać narzędzi lub broni.
