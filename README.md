@@ -28,8 +28,8 @@ Sterowanie grą odbywa się za pomocą klawiatury:
 
 - `←` i `→` – ruch w lewo i prawo
 - `↑` i `↓` – ruch w górę i dół
-- `Z` – strzał podstawowy
-- `X` – strzał specjalny / alternatywny
+- `Z` – strzał specjalny / alternatywny
+- `X` – strzał podstawowy 
 - `Enter` – pauza
 
 Instrukcje pojawiają się również na ekranie startowym gry.
