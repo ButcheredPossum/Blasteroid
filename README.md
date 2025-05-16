@@ -14,3 +14,6 @@
 
 -Gracz będzie interaktował z grą z pomocoą **strzałek** i klawiszy **"z"** i **"x"** znajdujących się na klawiaturze aby poruszać postącią i
 używać narzędzi lub broni.
+
+# Copyright (c) 2025 Piotr Mikulski
+# Licensed under the MIT License
