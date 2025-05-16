@@ -1,19 +1,41 @@
-# Blasteroid
+# 🚀 Blasteroid
 
-## **01** Cel
+**Blasteroid** to przeglądarkowa gra typu **shmup** (shoot 'em up), w której gracz steruje statkiem kosmicznym i walczy z falami wrogów w dynamicznej, retro-futurystycznej scenerii. Gra została stworzona z myślą o szybkiej, zręcznościowej rozgrywce dostępnej bezpośrednio w przeglądarce.
 
--Aplikacja ta służy jako forma _zabawy_ lub _rozrywki_ dla użytkownika
+---
 
-## **02** Jak działa
+## 🎯 Cel gry
 
--Przy urochomieniu programu wyświetli sie strona internetowa na której będzie można zagrać lub ściagnąć grę
+Celem gry jest przetrwać jak najdłużej, niszcząc nadciągające fale asteroidów. Gracz zdobywa punkty za każdego zniszczonego kamienia. Po utracie wszystkich żyć gra się kończy — spróbuj pobić swój rekord!
 
--W grze chodzi o zdobyciu jak najwięcej punktów przez zniszczenie różnych obiektów, które będą miały moc cię zranić
+---
 
-## **03** Interakcja z użytkownikiem
+## ⚙️ Jak działa
 
--Gracz będzie interaktował z grą z pomocoą **strzałek** i klawiszy **"z"** i **"x"** znajdujących się na klawiaturze aby poruszać postącią i
-używać narzędzi lub broni.
+Gra została stworzona jako aplikacja webowa i nie wymaga instalacji — wystarczy otworzyć stronę w przeglądarce.
 
-# Copyright (c) 2025 Piotr Mikulski
-# Licensed under the MIT License
+Pod maską:
+
+- Napisana w HTML5, CSS i JavaScript.
+- Renderowanie gry odbywa się za pomocą elementu `<iframe>`.
+- Gra działa płynnie na większości nowoczesnych przeglądarek desktopowych.
+
+---
+
+## 🎮 Interakcja z użytkownikiem
+
+Sterowanie grą odbywa się za pomocą klawiatury:
+
+- `←` i `→` – ruch w lewo i prawo
+- `↑` i `↓` – ruch w górę i dół
+- `Z` – strzał podstawowy
+- `X` – strzał specjalny / alternatywny
+- `Enter` – pauza
+
+Instrukcje pojawiają się również na ekranie startowym gry.
+
+---
+
+## 📄 Licencja
+
+Projekt dostępny na licencji MIT – zobacz plik [LICENSE](./LICENSE) po więcej informacji.
