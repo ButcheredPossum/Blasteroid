@@ -12,7 +12,7 @@ Celem gry jest przetrwać jak najdłużej, niszcząc nadciągające fale asteroi
 
 ## ⚙️ Jak działa
 
-Gra została stworzona jako aplikacja webowa i nie wymaga instalacji — wystarczy otworzyć stronę w przeglądarce.
+Po pobraniu projektu wystarczy wejść w plik index.html i odpalić grę w przeglądarce.
 
 Pod maską:
 
