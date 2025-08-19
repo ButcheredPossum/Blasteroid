@@ -1,4 +1,4 @@
-# 🚀 Blasteroid
+# 🚀 [Blasteroid](/index.html)
 
 **Blasteroid** to przeglądarkowa gra typu **shmup** (shoot 'em up), w której gracz steruje statkiem kosmicznym i walczy z falami wrogów w dynamicznej, retro-futurystycznej scenerii. Gra została stworzona z myślą o szybkiej, zręcznościowej rozgrywce dostępnej bezpośrednio w przeglądarce.
 
